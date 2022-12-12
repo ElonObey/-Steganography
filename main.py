@@ -16,16 +16,16 @@ def choice_menu (com_list):
         user_command = input("Введите команду:")
 
         if user_command == com_list[0]:
-            clear()
+            # clear()
             exit()
 
         elif user_command == com_list[1]:
-            clear()
+            # clear()
             menu.get_helplist(commands)
 
         elif user_command == com_list[2]:
             beta.enctyption()
-            clear()
+            # clear()
            
         elif user_command == com_list[3]:
            beta.dectyption()
